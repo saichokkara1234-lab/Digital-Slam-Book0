@@ -1,0 +1,102 @@
+.create-book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.theme-options,
+.layout-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.theme-option,
+.layout-option {
+  padding: 12px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.theme-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.theme-option:hover,
+.layout-option:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.theme-option.active,
+.layout-option.active {
+  border-color: var(--primary-color);
+  background: var(--primary-light);
+}
+
+.theme-preview {
+  width: 60px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid var(--border-color);
+}
+
+.theme-default {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.theme-colorful {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.theme-elegant {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.theme-dark {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.layout-option {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.layout-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.layout-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+

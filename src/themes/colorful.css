@@ -1,0 +1,20 @@
+[data-theme="colorful"] {
+  --primary-color: #f5576c;
+  --primary-hover: #e4455a;
+  --primary-light: rgba(245, 87, 108, 0.1);
+  --secondary-color: #f093fb;
+  --secondary-hover: #de7fe8;
+  --danger-color: #ff6b6b;
+  --danger-hover: #ee5a5a;
+  --danger-light: rgba(255, 107, 107, 0.1);
+  --background: #fff5f7;
+  --card-background: #ffffff;
+  --text-primary: #2d3436;
+  --text-secondary: #636e72;
+  --text-on-primary: #ffffff;
+  --text-on-secondary: #ffffff;
+  --border-color: #ffe0e6;
+  --hover-background: rgba(245, 87, 108, 0.05);
+}
+
+

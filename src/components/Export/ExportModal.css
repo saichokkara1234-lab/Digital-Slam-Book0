@@ -1,0 +1,42 @@
+.export-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.export-section,
+.import-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.section-description {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border-color);
+  margin: 8px 0;
+}
+
+.import-error {
+  padding: 12px;
+  background: var(--danger-light);
+  color: var(--danger-color);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
